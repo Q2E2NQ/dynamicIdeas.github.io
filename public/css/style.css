@@ -1,0 +1,154 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400');
+</style>
+
+{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+html{
+    font-size: 62%;
+    scroll-behavior: smooth;
+}
+
+li,
+p,
+a {
+    font-size: 1.6rem;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+ h3 {
+     font-size: 3rem;
+ }
+
+ .navbar-style {
+     margin: auto;
+     padding: 20px 0;
+     height: auto;
+ }
+ 
+
+#logo {
+    display: initial;
+    font-weight: 600;
+    font-size: 3.5rem;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: rgb(228, 52, 110);
+    text-shadow: 2px 5px 3px rgba(red, green, blue, alpha);
+    padding:0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+   color: #0e1ce0;
+   text-transform: capitalize;
+   letter-spacing: 0.1rem;
+   padding-left: 1rem;
+   font-size: 1.9rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+   color:#fd5c63;
+}
+
+/* our hero sections */
+
+.hero-text h1 {
+   font-size: 3.5rem;
+   line-height: 1.5rem;
+   text-shadow: 5px 4px 11px rgba(0, 0, 0, 0.26);
+   letter-spacing: 1px;
+   color: #2f2f2f;
+   letter-spacing: 2px;
+   text-transform: uppercase;
+}
+
+.hero-text h1:nth-child(2) {
+   font-weight: bold;
+   color: #5222d0;
+}
+
+.hero-text p,
+.our-servives p,
+label {
+   font-size: 1.7rem;
+   letter-spacing: 0.2rem;
+   color: #777676;
+   text-transform: capitalize;
+   margin-top: 1.5rem;
+   margin-bottom: 5rem;
+}
+
+.hero-text p span {
+   font-weight: bold;
+   color: #000;
+}
+
+.btn-style {
+   padding: 12px;
+   border: none;
+   color: #fff;
+   font-size: 15px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border: 2px solid #fff;
+   background: #ec615b;
+   -webkit-transition: 0.5s all;
+   -moz-transition: 0.5s all;
+   -o-transition: 0.5s all;
+   -ms-transition:0.5s all;
+   transition: 0.5s all;
+}
+
+/* about us style starts */
+
+.about-style {
+   
+}
+
+
+h1 {
+    font-size: 8rem;
+    padding: 25px 0;
+    text-align: center;
+    color: #000;
+ }
+ p {
+     text-align: center;
+     font-size: 3rem;
+ }
+
+ .our-servives{
+     width: 50vw; height:5px; margin:5px;
+     background-color: aqua;
+ }
+
+ h4 {
+    
+    font-size: 4rem;
+    padding: 25px 0;
+    text-align: center;
+    color: #000;
+ }
+
+ .box {
+    -moz-box-sizing: 100vw;
+    -webkit-box-sizing: 100vw;
+    box-sizing: 100vw;
+    -webkit-border-radius: 3px 4px 3px 4px;
+    border-radius: 3px 4px 3px 4px;
+    -webkit-box-shadow: 23px 23px 2px 23px rgba(red,blue,green,yellow);
+    box-shadow: 23px 23px 2px 23px rgba(red,blue,green,yellow);
+    outline: 2px solid #150DFF;
+    color: chartreuse;
+ }
+
+ 
